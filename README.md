@@ -1,4 +1,4 @@
-# 智能劳动法咨询助手
+# 智能法律咨询助手
 
 一个面向中国劳动法律条文的本地 RAG 演示项目。系统通过稠密向量召回、Cross-Encoder 重排序和相关度阈值控制，为生成模型提供可追溯的法律依据；前端使用 Streamlit，生成模型通过 LMDeploy 的 OpenAI-compatible API 接入。
 
