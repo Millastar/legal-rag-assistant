@@ -1,5 +1,15 @@
 # 智能法律咨询助手
 
+[![Python 3.10–3.13](https://img.shields.io/badge/Python-3.10--3.13-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![LlamaIndex 0.14.23](https://img.shields.io/badge/RAG-LlamaIndex%200.14.23-8A2BE2)](https://docs.llamaindex.ai/)
+[![LLaMA-Factory](https://img.shields.io/badge/Fine--tuning-LLaMA--Factory-FF8C00)](https://github.com/hiyouga/LLaMA-Factory)
+[![Streamlit 1.61.1](https://img.shields.io/badge/UI-Streamlit%201.61.1-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![ChromaDB 1.5.9](https://img.shields.io/badge/VectorDB-ChromaDB%201.5.9-lightgrey)](https://www.trychroma.com/)
+[![LMDeploy](https://img.shields.io/badge/Inference-LMDeploy-1677FF)](https://lmdeploy.readthedocs.io/)
+[![Qwen2.5-7B](https://img.shields.io/badge/LLM-Qwen2.5--7B-red?logo=alibabacloud&logoColor=white)](https://huggingface.co/Qwen)
+[![bge-reranker-large](https://img.shields.io/badge/Reranker-bge--reranker--large-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/BAAI/bge-reranker-large)
+[![pytest](https://img.shields.io/badge/Tests-pytest-0A9EDC?logo=pytest&logoColor=white)](https://pytest.org/)
+
 一个面向中国劳动法律条文的本地 RAG 演示项目。系统通过稠密向量召回、Cross-Encoder 重排序和相关度阈值控制，为生成模型提供可追溯的法律依据；前端使用 Streamlit，生成模型通过 LMDeploy 的 OpenAI-compatible API 接入。
 
 > 本项目用于展示 RAG、领域微调模型接入和工程化整理思路，不构成正式法律意见，也不应直接用于高风险法律决策。
