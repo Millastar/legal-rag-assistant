@@ -10,7 +10,7 @@
 [![bge-reranker-large](https://img.shields.io/badge/Reranker-bge--reranker--large-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/BAAI/bge-reranker-large)
 [![pytest](https://img.shields.io/badge/Tests-pytest-0A9EDC?logo=pytest&logoColor=white)](https://pytest.org/)
 
-一个面向中国劳动法律条文的本地 RAG 演示项目。系统通过稠密向量召回、Cross-Encoder 重排序和相关度阈值控制，为生成模型提供可追溯的法律依据；前端使用 Streamlit，生成模型通过 LMDeploy 的 OpenAI-compatible API 接入。
+一个面向中国法律条文的本地 RAG 演示项目。系统通过稠密向量召回、Cross-Encoder 重排序和相关度阈值控制，为生成模型提供可追溯的法律依据；前端使用 Streamlit，生成模型通过 LMDeploy 的 OpenAI-compatible API 接入。
 
 > 本项目用于展示 RAG、领域微调模型接入和工程化整理思路，不构成正式法律意见，也不应直接用于高风险法律决策。
 
