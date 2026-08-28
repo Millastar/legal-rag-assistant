@@ -40,7 +40,7 @@ flowchart LR
     C --> UI
 ```
 
-本项目实现的是“稠密向量召回 + Cross-Encoder 重排序”，没有把 Chroma 的普通向量检索包装成未经实现的稀疏/稠密混合检索。
+本项目实现的是“稠密向量召回 + Cross-Encoder 重排序”
 
 ## 目录结构
 
